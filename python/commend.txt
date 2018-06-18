@@ -1,0 +1,5 @@
+python learn.py Car --run-id=123 --train
+tensorboard --logdir=summaries
+jupyter notebook
+
+cd D:\Unity\ml-agents-0.4.0\python
