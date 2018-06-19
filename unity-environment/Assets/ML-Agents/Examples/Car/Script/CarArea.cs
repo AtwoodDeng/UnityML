@@ -38,7 +38,12 @@ public class CarArea : MonoBehaviour {
 			}
 
 			Vector3 targetPos = -startPos;
+
+			targetPos.x = targetPos.x < 0 ? -areaSize + 0.5f : areaSize - 0.5f;
+			targetPos.z = targetPos.z < 0 ? -areaSize + 0.5f : areaSize - 0.5f;
+
 			target.transform.localPosition = targetPos;
+
 
 		} else {
 			startPos = -target.transform.localPosition + new Vector3( Random.Range(-0.5f , 0.5f) , 0 , Random.Range(-0.5f,0.5f));

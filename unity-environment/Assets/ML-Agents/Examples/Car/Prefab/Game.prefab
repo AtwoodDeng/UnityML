@@ -64,7 +64,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1152541598830460
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,7 +134,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1566161907320532
 GameObject:
   m_ObjectHideFlags: 1
@@ -223,7 +223,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1890134015066678
 GameObject:
   m_ObjectHideFlags: 1
@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1956208228884272
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,7 +312,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4002330626473326
 Transform:
   m_ObjectHideFlags: 1
@@ -459,8 +459,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1254822736461920}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.36, y: 0, z: 0.8}
-  m_LocalScale: {x: 1.5, y: 1, z: 1.5}
+  m_LocalPosition: {x: -1.61, y: 0, z: -0.65}
+  m_LocalScale: {x: 1.5, y: 1, z: 5.618673}
   m_Children: []
   m_Father: {fileID: 4823166978223698}
   m_RootOrder: 3
@@ -472,8 +472,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1937267521391972}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.89, y: 0, z: 1.6}
-  m_LocalScale: {x: 1.5, y: 1, z: 1.5}
+  m_LocalPosition: {x: 2.08, y: 0, z: -2.26}
+  m_LocalScale: {x: 1.5, y: 1, z: 4.7997937}
   m_Children: []
   m_Father: {fileID: 4823166978223698}
   m_RootOrder: 2
@@ -505,7 +505,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1778195791189022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.92, y: 0, z: -3.94}
+  m_LocalPosition: {x: -4, y: 0, z: -4}
   m_LocalScale: {x: 2, y: 0.2, z: 2}
   m_Children: []
   m_Father: {fileID: 4002330626473326}
@@ -1337,7 +1337,7 @@ MonoBehaviour:
   area: {fileID: 114741362294882642}
   forwardForce: 35
   turnForce: 2
-  turnRate: 20
+  turnRate: 5
   detectRange: 30
 --- !u!114 &114741362294882642
 MonoBehaviour:
@@ -1361,7 +1361,7 @@ MonoBehaviour:
   - {fileID: 1080383175963964}
   areaSize: 4.5
   target: {fileID: 1778195791189022}
-  randomBlocks: 0
+  randomBlocks: 1
 --- !u!114 &114990363880352478
 MonoBehaviour:
   m_ObjectHideFlags: 1
